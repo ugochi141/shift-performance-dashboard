@@ -1,0 +1,27 @@
+{
+  "shift_analysis": {
+    "first_shift": {
+      "date": "2024-01-15",
+      "staff": ["Tech_A", "Tech_B", "Tech_C", "Tech_D", "Tech_E"],
+      "total_tests": 945,
+      "avg_tat": 42.3,
+      "compliance": 85.2,
+      "incidents": 2
+    },
+    "second_shift": {
+      "date": "2024-01-15",
+      "staff": ["Tech_F", "Tech_G", "Tech_H", "Person2_Sam"],
+      "total_tests": 1123,
+      "avg_tat": 71.2,
+      "compliance": 48.3,
+      "incidents": 8,
+      "problem_staff": ["Person2_Sam"],
+      "sam_metrics": {
+        "tests_completed": 187,
+        "avg_tat": 95.3,
+        "errors": 5,
+        "delays": 23
+      }
+    }
+  }
+}
